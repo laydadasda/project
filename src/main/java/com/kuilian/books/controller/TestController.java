@@ -85,6 +85,7 @@ public class TestController {
     @RequestMapping("/test")
     public void uuu(@RequestBody() String s){
         System.out.println(s);
+        System.out.println(s);
     }
 
 }
